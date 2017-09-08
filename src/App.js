@@ -137,7 +137,7 @@ class TodoApp extends Component {
       
        return { 
   
-         task: prevstate.tasks.push(task)
+         tasks: prevstate.tasks.concat(task)
   
       }});
     
